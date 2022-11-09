@@ -19,7 +19,7 @@ Identify the risk of having a stroke based on a list of input information:
 ## 2. How to run the project
 There are two way to run the project
 
-1. Deploy and run Docker image
+1. Deploy and run Docker image  
 Get the Dockerfile in this repository and run below command, with whatever tag name. In the example tag name is v01
    ```docker build -t stroke-prediction:v01```
   Then run the docker image with below command
