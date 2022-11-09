@@ -26,7 +26,7 @@ Get the Dockerfile in this repository and run below command, with whatever tag n
    ```docker run -it --rm -p 9696:9696 stroke-prediction:v01```
     
  
-2. Run the API service 
+2. Run the API service   
 The Machine learning model has been deployed into an API service using Google cloud.
 An API test tool like Postman can be used to manipulate with this API.
 At the time of submitting this midterm project for grading (Nov 08, 2022), the API service is still up.
