@@ -20,13 +20,13 @@ Identify the risk of having a stroke based on a list of input information:
 There are two way to run the project
 
 1. Deploy and run Docker image
- Get the Dockerfile in this repository and run below command, with whatever tag name. In the example tag name is v01
+Get the Dockerfile in this repository and run below command, with whatever tag name. In the example tag name is v01
    ```docker build -t stroke-prediction:v01```
   Then run the docker image with below command
    ```docker run -it --rm -p 9696:9696 stroke-prediction:v01```
     
  
-2. Run the API service
+2. Run the API service 
 The Machine learning model has been deployed into an API service using Google cloud.
 An API test tool like Postman can be used to manipulate with this API.
 At the time of submitting this midterm project for grading (Nov 08, 2022), the API service is still up.
