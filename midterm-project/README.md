@@ -34,20 +34,23 @@ However, the service will be suspended after the grading period because of insuf
 
 + URL: https://stroke-prediction-nihetndziq-uc.a.run.app/api/stroke-predict
 + Method: POST
-+ Sample Payload
++ Sample Payload  
 {
- "Age": 80, 
- "Gender": "male" <male/female/not sure>, 
- "Heart_disease" : "yes" <yes/no>,
- "Hypertension": "yes"  <yes/no>,
- "Ever_married": "yes"  <yes/no>,
- "Avg_glucose_level": 180,
- "Bmi": 40,
- "Urban_residence": "yes" <yes/no>,
- "Smoking_status": "yes" <yes/no/formally smoked>,
- "Work_type": "Self-employed"  <Private, Self-employed, Private, Govt_job>
+ "Age": 80,<br/> 
+ "Gender": "male" <male/female/not sure>, <br/> 
+ "Heart_disease" : "yes" <yes/no>,<br/> 
+ "Hypertension": "yes"  <yes/no>,<br/> 
+ "Ever_married": "yes"  <yes/no>,<br/> 
+ "Avg_glucose_level": 180,<br/> 
+ "Bmi": 40,<br/> 
+ "Urban_residence": "yes" <yes/no>,<br/> 
+ "Smoking_status": "yes" <yes/no/formally smoked>,<br/> 
+ "Work_type": "Self-employed"  <Private, Self-employed, Private, Govt_job><br/> 
   
 }
+
+![image](https://user-images.githubusercontent.com/58269366/200979743-db76f6bc-61dc-4134-9a58-8ed7aa815364.png)
+
 
 ## 3. Included files
 + Stroke-prediction-notebook.ipynb
