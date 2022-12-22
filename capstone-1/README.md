@@ -17,7 +17,7 @@ Identify the risk of having a stroke based on a list of input information:
  + Employment status (Work type)
 
 ## 2. How to run the project
-There are two way to run the project
+There are three ways to run the project
 
 1. Deploy and run Docker image  
 Get the Dockerfile in this repository and run below command, with whatever tag name. In the example tag name is v01
@@ -52,6 +52,9 @@ However, the service will be suspended after the grading period because of insuf
 ![image](https://user-images.githubusercontent.com/58269366/200979743-db76f6bc-61dc-4134-9a58-8ed7aa815364.png)
 
 
+3. Test the exposed machine learning API via a SPA (Single Page Application):
+	URL: https://stroke-prediction-3baa8.web.app/About
+
 ## 3. Included files
 + Stroke-prediction-notebook.ipynb
 + Data/stroke-data.csv
@@ -60,6 +63,8 @@ However, the service will be suspended after the grading period because of insuf
 + Dockerfile
 + Pipfile
 + Pipfile.lock
++ Requirements.txt
++ Training.py
 
 
 
