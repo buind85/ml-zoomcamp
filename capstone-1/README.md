@@ -52,8 +52,11 @@ However, the service will be suspended after the grading period because of insuf
 ![image](https://user-images.githubusercontent.com/58269366/200979743-db76f6bc-61dc-4134-9a58-8ed7aa815364.png)
 
 
-3. Test the exposed machine learning API via a SPA (Single Page Application):
+3. Test the exposed machine learning API via a SPA (Single Page Application): <br/>
 	URL: https://stroke-prediction-3baa8.web.app/About
+
+![image](https://user-images.githubusercontent.com/58269366/209064573-0fafa259-1da0-44f1-98b3-63ee3bfc22dd.png)
+	
 
 ## 3. Included files
 + Stroke-prediction-notebook.ipynb
